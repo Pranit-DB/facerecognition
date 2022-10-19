@@ -1,0 +1,31 @@
+.form{
+    width: 700px;
+    background:
+    /* radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,#B71 24%,rgba(240,166,17,0) 0)19px 30px,
+    linear-gradient(#fb1 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#fb1 0)0 0,
+    linear-gradient(150deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(30deg,#fb1 24%,#B71 0,#B71 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#B71 0,#B71 76%,#fb1 0)0 0,
+    linear-gradient(90deg,#B71 2%,#fb1 0,#fb1 98%,#B71 0%)0 0 #fb1; */
+
+    radial-gradient(circle farthest-side at 0% 50%,#118cff 23.5%,rgba(240,166,17,0) 0)21px 30px,
+    radial-gradient(circle farthest-side at 0% 50%,#2211bb 24%,rgba(240,166,17,0) 0)19px 30px,
+    linear-gradient(#118cff 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,#118cff 0)0 0,
+    linear-gradient(150deg,#118cff 24%,#2211bb 0,#2211bb 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#2211bb 0,#2211bb 76%,#118cff 0)0 0,
+    linear-gradient(30deg,#118cff 24%,#2211bb 0,#2211bb 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,#2211bb 0,#2211bb 76%,#118cff 0)0 0,
+    linear-gradient(90deg,#2211bb 2%,#118cff 0,#118cff 98%,#2211bb 0%)0 0 #118cff;
+    background-size: 40px 60px;
+}
+input, button{
+    border: none;
+    border-radius: 5px ;
+}
+button::after{
+    transition: all 0.5s ease-out ;
+}
+
+.toCenter{
+  display: flex;
+  justify-content: center;
+}
+

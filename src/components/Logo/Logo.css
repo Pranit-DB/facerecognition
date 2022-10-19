@@ -1,0 +1,6 @@
+.tiltable{
+    z-index: -1;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(89deg, #ff19d1 -10%, #12a6b7 100%);
+}

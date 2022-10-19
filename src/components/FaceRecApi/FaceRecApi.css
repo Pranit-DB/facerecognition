@@ -1,0 +1,28 @@
+.imageFit{
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: 1; */
+ }
+
+ .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em;
+    margin-bottom: 15em;
+  }
+  .imgwrap {
+     /* width: 50%; or whatever you choose */
+     margin: auto;
+  }
+  .imgwrap img {
+     display: block;
+     width: 100%;
+     max-width: 500px;  /*actual image width */
+     height: auto; /* maintain aspect ratio*/
+     margin: auto; /*optional centering of image*/
+  }
